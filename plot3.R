@@ -1,5 +1,8 @@
 plot3 <- function()
 {
+  # for fread
+  library(data.table)
+  
   # fread, instead of read.table
   epcData_date <- fread("household_power_consumption.txt", select = c("Date"))
   

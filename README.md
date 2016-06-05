@@ -1,6 +1,8 @@
 ## Instruction of Submitted Files
 
 * Four functions, plot1, plot2, plot3, and plot4, are placed into four R script files. Four png files have also been pushed into the repository.
+* These functions read Date frmo the larget data set first, and get the desired target row indices. Then, they read partial contents for plotting for speeding up.
+* Note that, the household_power_consumption.txt is extracted and placed at the same level of directory.
 * The detailed assignment requirement is attached below.
 
 
