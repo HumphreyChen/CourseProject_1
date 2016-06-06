@@ -27,7 +27,7 @@ plot3 <- function()
   #########################################################################
   ## Plot 3
   png("plot3.png", 480, 480)
-  plot(datetime, impordata$Sub_metering_1, type="n", col = "black", xlab="", ylab="Global Active power (kilowatts)")
+  plot(datetime, impordata$Sub_metering_1, type="n", col = "black", xlab="", ylab="Energy sub metering")
   lines(datetime, impordata$Sub_metering_1, col = "black")
   lines(datetime, impordata$Sub_metering_2, col = "red")
   lines(datetime, impordata$Sub_metering_3, col = "blue")
